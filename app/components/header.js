@@ -19,7 +19,6 @@ export default class Header extends React.Component{
             return response.json();
         }).then((data)=>{
             if(data.status){
-                console.log(this.isMounted);
                 if(this.isMounted){
                     this.setState({
                         imgUrls:data.data,

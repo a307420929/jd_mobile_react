@@ -7,7 +7,6 @@ let HtmlwebpackPlugin = require('html-webpack-plugin');  //自动生成html插�
 
 module.exports = {
     entry:[
-        'webpack-dev-server/client?http://0.0.0.0:8080',
         './index.js'
     ],
     devtool: process.env.WEBPACK_DEVTOOL || 'source-map',
